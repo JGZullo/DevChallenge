@@ -2,6 +2,7 @@
 // células incorretas e desorganizadas para assim criar os objetos JSON e 
 // depois armazená-los no arquivo output.json. Tive problemas na conversão das colunas 'see_all'
 // e 'invisible' portanto elas não foram incluídas na solução final.
+// Continua funcionando ao rearranjar as colunas do arquivo CSV, desde que as colunas fullname e eid continuem sendo as primeiras.
 
 
 const fs = require('fs');
